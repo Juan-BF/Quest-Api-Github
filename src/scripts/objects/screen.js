@@ -22,7 +22,7 @@ const screen = {
 
             repositoriesItens +=`<li><a href="${repo.html_url}" target="_blank"> <spam class="namerepo">${repo.name}</spam><br>
             <ul class="detalles">
-            <li>🍴 ${forks}</li>
+            <li>🍴 ${forks ?? "sim Forks 😭"}</li>
             <li>⭐ ${stargazers} </li>
             <li>👀 ${watchers}</li>
             <li>💠 ${language}</li>
